@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Out With Ideas</title>
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Font Awesome CDN Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom CSS File Link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favion Link -->
+    <link rel="shortcut icon" href="img/favicon/favicon2.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><img src="img/favicon/favicon2.jpeg" alt="" style="width:36px"></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <!-- <a href="#book">book</a> -->
+        </nav>
+
+        <!-- <a href="#" class="btn">book a table</a> -->
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>fresh coffee and cookies in the morning</h3>
+                <a href="http://wa.me/6281282809971" class="btn">get yours <b>out with ideas</b> now</a>
+            </div>
+            <div class="image">
+                <img src="image\home-img.png" class="main-home-image" alt="">
+            </div>
+        </div>
+
+        <!-- <div class="image-slider">
+            <img src="image/home-img-1.png" alt="">
+            <img src="image/home-img-2.png" alt="">
+            <img src="image/home-img-3.png" alt="">
+        </div> -->
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h1 class="heading">out with ideas <span>About Us</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">what's make our brand special!</h3>
+                <p>karena adonan kami dibuat dengan bahan premium dan dibuat dengan cinta!, <b>out with ideas</b> pertama kali dibuat pada tahun 2021 hanya karena kami iseng untuk membuat brand karena feedback baik dari teman maupun saudara atas kue dan kopi yang kita buat</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <img src="edit-img\ingredients.png" alt="">
+                        <h3>quality ingredients</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="edit-img\love.png" alt="">
+                        <h3>made with love</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="edit-img\taste.png" alt="">
+                        <h3>taste yummy</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+        <h1 class="heading">our menu <span>popular menu</span></h1>
+
+        <!-- <div class="box-container">
+            <a href="#" class="box">
+                <img src="image/menu-1.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, sed.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-2.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, fugit.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-3.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, recusandae.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-4.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quas.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-5.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, vitae.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-6.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, expedita!</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+        </div> -->
+    </section>
+
+    <!-- REVIEW -->
+    <section class="review" id="review">
+        <h1 class="heading">reviews <span>what people says</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/pic.png" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>enak bet dah pokonya, tp jangan makan sambil operasi, ya ngapain juga makan sambil operasi</p>
+                    <h3>uta ganteng</h3>
+                    <span>ponakan</span>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic.png" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>enak bet dah pokonya, tp jangan makan sambil operasi, ya ngapain juga makan sambil operasi</p>
+                    <h3>uta ganteng</h3>
+                    <span>ponakan</span>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic.png" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>enak bet dah pokonya, tp jangan makan sambil operasi, ya ngapain juga makan sambil operasi</p>
+                    <h3>uta ganteng</h3>
+                    <span>ponakan</span>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic.png" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>enak bet dah pokonya, tp jangan makan sambil operasi, ya ngapain juga makan sambil operasi</p>
+                    <h3>uta ganteng</h3>
+                    <span>ponakan</span>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- BOOK -->
+    <!-- <section class="book" id="book">
+        <h1 class="heading">booking <span>reserve a table</span></h1>
+
+        <form action="">
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="number" placeholder="Number" class="box">
+            <textarea name="" placeholder="Message" class="box" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section> -->
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>contact info</h3>
+                <a><i class="fas fa-phone"></i> +62 812 8280 9971</a>
+                <a style="text-transform: none;"><i class="fas fa-envelope"></i> outwithideas@gmail.com</a>
+                <a><i class="fas fa-envelope"></i> Depok, Jawa Barat, Indonesia</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="http://wa.me/6281282809971"><i class="fab fa-whatsapp"></i> whatsapp</a>
+                <a href="https://www.instagram.com/ide_copas/"><i class="fab fa-instagram"></i> instagram</a>
+            </div>
+
+            <div class="box">
+                <h3>our branches</h3>
+                <a><i class="fas fa-arrow-right"></i> Depok</a>
+            </div>
+        </div>
+
+        <div class="credit">&copy; 2023 Out With Ideas. All Rights Reserved.</div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS File Link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
